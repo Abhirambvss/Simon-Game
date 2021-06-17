@@ -1,0 +1,68 @@
+.start{
+  font-family: 'Press Start 2P', cursive;
+  color: #FEF2BF;
+}
+
+.start_button{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50.5%,-53.5%);
+}
+
+.btn{
+  height: 200px;
+  width: 200px;
+border-radius: 3rem;
+display:inline-block;
+margin: 25px;
+border-color: grey;
+border-style: solid;
+}
+body{
+  background-color: #011F3F;
+}
+.center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform:  translate(-50%,-50%);
+}
+.red{
+  background-color: red;
+
+
+}
+.blue{
+  background-color: blue;
+
+}
+.green{
+  background-color: green;
+
+
+}
+.yellow{
+  background-color: yellow;
+
+}
+.pressed{
+  box-shadow: 0 0 30px white;
+  background-color: grey;
+
+}
+.start{
+  text-align: center;
+}
+
+.wrong{
+  background-color: red;
+
+}
